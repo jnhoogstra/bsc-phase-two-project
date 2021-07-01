@@ -1,17 +1,17 @@
-# Phase Two Project Repo
-**Authors:** Elliott Iturbe, Colette Crowder, Will Toranto
+# King County House Sales Predictive Model
+
+**Authors:** Elliott Iturbe, Jacob Hoogstra , Lorin Helfenstein 
 
 ## Overview
-The goal of this project is to discover how to make the most profitable movie possible in order to make business recommendations to Microsoft. Descriptive analyses of a variety of data on previously released movies reveal that the most profitable movie Microsoft could make is an adventure movie with an NR rating, directed by Jean Negulsesco at Buena Vistas studios, with a runtime between 100 minutes and 131 minutes.
-
+The goal of this project is to create the best multilinear regression model for the real estate firm in order for then to make business recommendations to clients on the price of their property. Descriptive analyses of data on previously sold houses revealed that our model would take in a number of features.
 ## Business Problem
-Microsoft wants to open a movie studio that can compete with other successful movie studios. However, they lack knowledge about filmmaking. To help them in this area, we will find out how a variety of factors affect the popularity of movies and then offer recommendations.
+A Seattle real estate firm would like to create a tool that allows their clients to enter information about their home and receive a prediction for their home's sale price. To help them in this area, we will create a multilinear regression model to help predict the price of a house based off of the properties features.
 
 ## Data
-We examined data on gross, genre, studio, director, release date, MPR rating, Rotten Tomatoes score, and run time. Variables like gross and Rotten Tomatoes score served as measures of the success of movies. The relationship between the rest of the variables and those two measures of success demonstrate what factors can be relied upon to make a profitable movie.
+We examined data on square foot living, square foot 15, bathrooms, year built, latitude, condition, view, longitude, month sold, zipcode, waterfront, year sold and grade quad against price. 
 
 ## Methods
-Our process started with organizing our data by dropping irrelevant columns, creating new ones, sorting by specific values, and merging dataframes. While modeling our data, we used descriptive statistics to create helpful visuals that displayed our findings. Overall, our descriptive analysis is absolutely essential for anyone who wants to succeed in the movie industry.
+Our process started with organizing our data by dropping irrelevant columns, creating new ones, sorting by specific values, changed the columns to objects, removing major outliers. While working with our data, we used a baseline model to create a helpful starting point. Based off that baseline model we create several other models until we created a final model that yielded the best R squared and root mean squared error.
 
 ## Results
 
@@ -40,15 +40,13 @@ This graph shows the average rating of movies according to month of release. Bec
 ![graph6](./images/Month_and_Rating.png)
 
 ## Conclusions
-We recommend that Microsoft uses Buena Vistas studios or models their own studio after BV practices and creates an adventure movie with an NR rating. They should also hire Jean Negulseso. The run time of the movie should be between 100 minutes and 131 minutes. Microsoft should not put time and money into securing any particular release month.
+After many models and tries we created a final model. The model created has a R-squared value of 0.7797402432462915 paired with a root mean squared error of 0.216636956049333. Our analysis focuses on specific features, compared to price we understand that their our other features that could be used not given in out data set..
 
-## Next Steps
-This project did not explore all possible avenues of increasing movie profitability. In the future, analyses could be performed regarding the actors who Microsoft should hire, what kind of storylines are received best by audiences, and what aspects of a movie trailer cause people to develop interest in seeing a movie. Additionally, it could benefit Microsoft to learn about the state of the film industry after COVID-19, which shut down theatres for a long period of time and may have impacted audience interest in ways that are not known yet.
 
 ## For More Information
 Please review our full analysis in [our Jupyter Notebook](./Final/Notebook.ipynb) or our [presentation](./microsoftmovieanalysispowerpoint.pdf).
 
-For any additional questions, please contact **Elliott Iturbe at eaiturbe@bsc.edu, Will Toranto at williamtoranto@gmail.com, or Colette Crowder at crcrowde@bsc.edu**
+For any additional questions, please contact **Elliott Iturbe at eaiturbe@bsc.edu, Jacob Hoogstra at jnhoogstra@crimson.ua.edu, or Lorin Helfenstein at lehelfen@bsc.edu**
 
 ## Repository Structure
 
