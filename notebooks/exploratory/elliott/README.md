@@ -22,16 +22,16 @@ This is a visual illistrates the correlation between the price of the house and 
 
 ![graph2](./images/priceofhomebydate.png)
 
-During development we used a basic baseline model which yeilded a R-squared value of 0.5375724227733399 and a root mean squared error of 176247.62352309376, as a starting point with the most correlated values shown above, and used this model to compare future iterations to. From there we engineered some new features and removed major outliers and continued to work on developing the model. 
+During development we used a basic baseline model which yeilded a R-squared value of 0.537 and a root mean squared error of 176247.623, as a starting point with the most correlated values shown above, and used this model to compare future iterations to. From there we engineered some new features and removed major outliers and continued to work on developing the model. 
 
 ## Results
-After a good amount of trial and error, and applying various techniques including log transforming our target, scaling our data, and finally using polynomial features we arrived at our final advanced model which yeilded a R-squared value of 0.796394737059089 and a root mean squared error of 0.2180516351195841 which had been log transformed.
+After a good amount of trial and error, and applying various techniques including log transforming our target, scaling our data, and finally using polynomial features we arrived at our final advanced model which yeilded a R-squared value of 0.796 and a root mean squared error of 0.218 which had been log transformed.
 
 # Next Steps
 Features we would like to add but ran out of time to produce include using lat and long and zipcode to produce more advanced features like distance to nearest beach or body of water, and neighborhood statistics. Another thing we could look at to improve the model is to log transform other features to make more normal distributions, however, many of our features are categorical values. As well as started to look at creating a price map of the county, but again ran out of time to produce the visual.
 
 ## Conclusions
-After many models and tries we created a final model. The model created has a R-squared value of 0.796394737059089 paired with a root mean squared error of 0.2180516351195841. Our analysis focuses on specific features, compared to price we understand that their our other features that could be used not given in out data set..
+After many models and tries we created a final model. The model created has a R-squared value of 0.796 paired with a root mean squared error of 0.218. Our analysis focuses on specific features, compared to price we understand that their our other features that could be used not given in out data set..
 
 
 ## For More Information
