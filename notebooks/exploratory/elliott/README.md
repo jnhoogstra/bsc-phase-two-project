@@ -16,11 +16,20 @@ Our process started with exploring the data set provided to obtain a stronger un
 
 This visualization shows the three most correlated values to price.
 
-![graph1](./images/3mostcorr.png)
+![graph1](./images/3mostcorr_correct.png)
 
 This is a visual illistrates the correlation between the price of the house and the date sold.
 
 ![graph2](./images/priceofhomebydate.png)
+
+This visuals x-axis is the predicted values and the y-axis is the true values for the baseline model.
+
+![graph3](./images/baselinescatter.png)
+
+This visuals x-axis is the predicted values and the y-axis is the true values for the final model.
+
+![graph4](./images/Finalmodelscatter.png)
+
 
 During development we used a basic baseline model which yeilded a R-squared value of 0.537 and a root mean squared error of 176247.623, as a starting point with the most correlated values shown above, and used this model to compare future iterations to. From there we engineered some new features and removed major outliers and continued to work on developing the model. 
 
